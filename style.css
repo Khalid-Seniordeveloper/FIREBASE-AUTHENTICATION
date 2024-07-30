@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Workbench&display=swap');
+
+html{
+    font-size: 62.5%;
+
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main-container{
+    width: 35rem;
+    height: 45rem;
+    border: 3px solid black;
+    border-radius: 2rem;
+    align-content: center;
+    /* margin-left: 40rem; */
+    /* margin-top: rem */
+    display: flex;
+    justify-content:center ;
+    /* margin-top: 10rem; */
+    background-color: ;
+flex-wrap: wrap;
+
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: #3146a6;
+
+}
+
+.main-main-container{
+display: flex;
+justify-content: center;
+
+
+}
+.input-fe{
+    padding: 0.8rem;
+    border-radius: 1rem;
+    /* margin-top: 10rem; */
+    background-color: #e5e5e5;
+    border: 0;
+}
+
+p{
+    margin-top: 7rem;
+    font-size: 1.5rem;
+    /* font-style: normal; */
+}
+button{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #d4408c;
+    border: 0px;
+    color: wheat;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#link{
+    font-size: 1.3rem;
+}
+
+
+@media (max-width : 345px ){
+    
+
+    .main-container{
+        width: 25rem;
+        height: 44rem;
+    
+    
+    }
+    .input-fe{
+        padding: 0.2rem;
+        border-radius: 1rem;
+        /* margin-top: 10rem; */
+        background-color: #e5e5e5;
+        border: 0;
+        size: 40;
+    }
+    p{
+        font-size: 1rem;
+    }
+   
+}
